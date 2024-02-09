@@ -126,69 +126,7 @@ print(str_dict)  # Output: '{"1": "one", "2": "two", "3": "three"}'
 # Type casting:
 
 """Typecasting refers to explicitly converting the data type of a value from one type to another. Here's the code with examples demonstrating typecasting along with comments:
-
-```python
-# Integer to Float
-num_int = 5
-num_float = float(num_int)
-print(num_float)  # Output: 5.0
-
-# Float to Integer
-num_float = 3.14
-num_int = int(num_float)
-print(num_int)  # Output: 3
-
-# String to Integer or Float
-num_str = "10"
-num_int = int(num_str)
-num_float = float(num_str)
-print(num_int, num_float)  # Output: 10 10.0
-
-# Integer or Float to String
-num_int = 10
-num_float = 3.14
-num_str_int = str(num_int)
-num_str_float = str(num_float)
-print(num_str_int, num_str_float)  # Output: "10" "3.14"
-
-# String to List
-str_example = "hello"
-list_example = list(str_example)
-print(list_example)  # Output: ['h', 'e', 'l', 'l', 'o']
-
-# List to Tuple
-list_example = [1, 2, 3]
-tuple_example = tuple(list_example)
-print(tuple_example)  # Output: (1, 2, 3)
-
-# Tuple to List
-tuple_example = (1, 2, 3)
-list_example = list(tuple_example)
-print(list_example)  # Output: [1, 2, 3]
-
-# String to Dictionary (using eval() for simple cases)
-str_dict = "{1: 'one', 2: 'two', 3: 'three'}"
-dict_example = eval(str_dict)
-print(dict_example)  # Output: {1: 'one', 2: 'two', 3: 'three'}
-
-# Dictionary to String (using JSON)
-dict_example = {1: 'one', 2: 'two', 3: 'three'}
-str_dict = json.dumps(dict_example)
-print(str_dict)  # Output: '{"1": "one", "2": "two", "3": "three"}'
-
-# Typecasting: String to Integer
-str_num = "123"
-int_num = int(str_num)
-print(int_num)  # Output: 123
-
-# Typecasting: Integer to String
-int_num = 456
-str_num = str(int_num)
-print(str_num)  # Output: "456"
-```
-
-In this code, typecasting examples include converting strings to integers and vice versa using the `int()` and `str()` functions, respectively. These conversions are demonstrated with comments explaining each conversion."""
-
+"""
 
 # -----------------------------------------------
 
